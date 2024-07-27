@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-color: #f8f1f1;
+    padding: 10px;
+}
+header .top-par{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+header .logo h1 span{
+    color: rgb(248, 164, 7);
+}
+.top-par nav{
+    display: block;
+}
+.top-par ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+.top-par ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
+header .mobile-btn{
+    font-size: 25px;
+    display: none;
+}
+.banner{
+    background-image: url(../img/cottonbro.jpg);
+    height: calc(100vh - 65px);
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.banner .msg{
+    padding: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.banner .msg p{
+    font-size: 20px;
+}
+.banner .msg h2{
+    margin: 20px 0;
+    font-size: 40px;
+}
+.banner .msg button{
+    margin: 0 10px;
+    padding: 6px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.banner .msg .btn1{
+    background: none;
+    border: 1px solid white;
+}
+.banner .msg .btn2{
+    background-color: rgb(248, 164, 7);
+    border: none;
+}
+.little{
+    background-color: #eeeeee;
+    padding: 40px 0;
+}
+.container .little-container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.container .little-container h3{
+    font-size: 30px;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+.container .little-container p{
+    color: rgb(78, 74, 74);
+    padding: 30px 10px;
+}
+.little .box-container{
+    display: flex;
+    justify-content:space-around;
+    padding: 30px 0;
+}
+.little .box-container .box{
+    width: 32%;
+    text-align:center;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+}
+.box-container .box .fas{
+    font-size: 30px;
+    padding: 20px 0;
+}
+.box-container .box h3{
+    font-size: 25;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.box-container .box svg{
+font-size: 40px;
+margin: 25px 0;
+}
+.box-container .box p{
+    color: rgb(78, 74, 74);
+    padding: 20px 10px;
+}
+.our{
+    padding: 40px 0;
+}
+.our .our-container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.our .our-container h3{
+    font-size: 30px;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+.our .our-container p{
+    color: rgb(78, 74, 74);
+    padding: 30px 10px;
+}
+.our .icon-container{
+    display: flex;
+    justify-content:space-around;
+    padding: 30px 0;
+}
+.icon-container .icon{
+    width: 24%;
+    /* height: 150px; */
+    flex-basis: auto;
+}
+.icon-container .icon img{
+    width: 100%;
+    height: 100%;
+}
+.forms{
+    background-color: #000;
+}
+.forms .forms-container{
+    display: flex;
+    justify-content:space-around;
+    padding: 40px 0;
+}
+.forms .about{
+    width: 49%;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    padding: 40px 30px;
+}
+.forms .about h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px 10px 25px 10px;
+}
+.forms .about p{
+    padding: 25px 0 15px 0;
+    line-height: 1.5;
+}
+.forms .contact{
+    width: 49%;
+    color: white;
+    border: 1px solid white;
+    padding: 40px;
+}
+.forms .contact h3{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 10px 25px 10px;
+}
+.contact .text-contact{
+    width: 100%;
+    font-size: 25px;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+}
+.contact .text-contact input{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    width: 80%;
+}
+.contact .btn{
+    color: rgb(248, 164, 7);
+    font-size: 21px;
+    background:none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 12px;
+    margin: 15px 0;
+    float: right;
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(248, 164, 7);
+    width: 100%;
+    height: 65px;
+    padding: 20px 0;
+}
+.text-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform:capitalize;
+    font-size: 25px;
+    color: white;
+}
+.text-icons .icons svg{
+    margin: 0 9px;
+    cursor: pointer;
+}
+@media(max-width:992px) {
+    .top-par nav{
+        display: none;
+    }
+    header .mobile-btn{
+        display: block;
+    }
+    .banner .msg p{
+        font-size: 15px;
+    }
+    .banner .msg h2{
+        font-size: 30px;
+    }
+    .contact .text-contact{
+        margin-top: 50px;
+    }
+    .text-icons{
+        font-size: 15px;
+    }
+}
+@media(max-width:768px) {
+    .banner .msg p{
+        font-size: 14px;
+        color: #000;
+    }
+    .banner .msg h2{
+        font-size: 25px;
+    }
+    .banner .msg button{
+        margin: 10px 0;
+        padding: 6px 10px;
+    }
+    .container .little-container {
+        width: 80%;
+    }
+    .little .box-container{
+        flex-direction: column;
+    }
+    .little .box-container .box{
+        width: 90%;
+        margin:20px auto;
+        /* flex-basis: auto; */
+    }
+    .container .little-container h3{
+        font-size: 20px;
+    }
+    .container .little-container p{
+        padding: 25px 0px;
+    }
+    .our .our-container {
+        width: 80%;
+    }
+    .our .icon-container{
+        flex-direction: column;
+    }
+    .forms .forms-container{
+        flex-direction: column;
+    }
+    .our .our-container h3{
+        font-size: 20px;
+    }
+    .icon-container .icon{
+        width: 90%;
+        margin: auto;
+        /* flex-basis: auto; */
+    }
+    .forms .about{
+        width: 90%;
+        margin:10px auto;
+    }
+    .forms .contact{
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+@media(max-width:576px) {
+    .forms .about h3{
+        font-size: 18px;
+    }
+    .forms .contact h3{
+        font-size: 18px;
+    }
+    .text-icons{
+        font-size: 15px;
+    }
+    .text-icons .icons svg{
+        margin: 0 4px;
+    }
+}
+@media(max-width:420px) {
+    .container{
+        width: 90%;
+    }
+    header .logo h1{
+        font-size: 20px;
+    }
+    header .mobile-btn{
+        font-size: 20px;
+    }
+    .container .little-container{
+        width: 90%;
+    }
+    .little .box-container .box {
+        padding: 0;
+    }
+    .box-container .box svg {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+    .box-container .box h3 {
+        padding: 0px;
+    }
+    .container .little-container h3{
+        font-size: 15px;
+    }
+    
+    .our .our-container {
+        width: 90%;
+    }
+    
+    .our .our-container h3{
+        font-size: 18px;
+        padding: 15px;
+    }
+    .our .our-container p {
+        padding: 15px 0px;
+    }
+    .text-icons{
+        font-size: 10px;
+    }
+    .text-icons .icons svg{
+        margin: 0 4px;
+    }
+    .forms .about {
+        width: 100%;
+        padding: 30px 15px;
+    }
+    .forms .contact {
+        width: 100%;
+        padding: 15px;
+    }
+    .contact .text-contact {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+}
